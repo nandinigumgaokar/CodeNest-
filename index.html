@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CodeNest | Smart Coding Hub</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #0b1020;
+      color: white;
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 22px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #27304a;
+    }
+
+    .logo {
+      color: #a78bfa;
+      font-size: 25px;
+      font-weight: bold;
+    }
+
+    header a {
+      color: #ddd6fe;
+      text-decoration: none;
+    }
+
+    .hero {
+      padding: 75px 8% 45px;
+      text-align: center;
+    }
+
+    .tag {
+      color: #a78bfa;
+      margin-bottom: 20px;
+    }
+
+    h1 {
+      font-size: clamp(35px, 7vw, 58px);
+      line-height: 1.15;
+      margin-bottom: 20px;
+    }
+
+    h1 span {
+      color: #a78bfa;
+    }
+
+    .hero p {
+      color: #b8c0d9;
+      line-height: 1.7;
+      max-width: 550px;
+      margin: 0 auto 28px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #8b5cf6;
+      color: white;
+      padding: 13px 22px;
+      border: none;
+      border-radius: 9px;
+      font-size: 15px;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    .section {
+      padding: 35px 8% 65px;
+    }
+
+    .section h2 {
+      margin-bottom: 24px;
+      font-size: 27px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+    }
+
+    .card {
+      background: #151c31;
+      border: 1px solid #293451;
+      padding: 25px;
+      border-radius: 15px;
+    }
+
+    .card .emoji {
+      font-size: 32px;
+    }
+
+    .card h3 {
+      margin: 16px 0 10px;
+    }
+
+    .card p {
+      color: #b8c0d9;
+      line-height: 1.6;
+      font-size: 14px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #9ca3af;
+      border-top: 1px solid #27304a;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">⌘ CodeNest</div>
+    <a href="#explore">Explore →</a>
+  </header>
+
+  <section class="hero">
+    <div class="tag">✦ YOUR CODING JOURNEY STARTS HERE</div>
+    <h1>Build. Learn.<br><span>Create the Future.</span></h1>
+    <p>
+      One creative space to explore JavaScript, discover Python,
+      solve coding challenges and turn your ideas into reality.
+    </p>
+    <a href="#explore" class="button">Explore Coding →</a>
+  </section>
+
+  <section class="section" id="explore">
+    <h2>Explore Your Universe ✨</h2>
+
+    <div class="cards">
+      <div class="card">
+        <div class="emoji">⚡</div>
+        <h3>JavaScript Lab</h3>
+        <p>Learn interactive web development and bring your ideas to life.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🐍</div>
+        <h3>Python Studio</h3>
+        <p>Explore Python fundamentals, logic and beginner-friendly projects.</p>
+      </div>
+
+      <div class="card">
+        <div class="emoji">🧩</div>
+        <h3>Code Challenges</h3>
+        <p>Practice problem-solving and strengthen your coding skills.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    Made with curiosity 💜 | CodeNest © 2026
+  </footer>
+
+</body>
+</html>
